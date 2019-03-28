@@ -1,0 +1,237 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.container-fluid {
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.hidden-xs {
+  display: none;
+}
+
+.hidden-sm {
+  display: block;
+}
+
+.header-main-fluid {
+  background-image: -webkit-gradient(linear, left bottom, right top, from(#3dcdbc), color-stop(#2bc3c0), color-stop(#22b8c2), color-stop(#27adc1), to(#33a2bd));
+  background-image: linear-gradient(to right top, #3dcdbc, #2bc3c0, #22b8c2, #27adc1, #33a2bd);
+  height: 480px;
+  height: 100vh;
+}
+
+.header-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+}
+
+.header-main > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-main > div > h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.header-main > div > p {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+.header-main > div > a {
+  display: inline-block;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: grey;
+  text-align: center;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+  background-color: #fff;
+  height: 45px;
+  width: 200px;
+  padding: 15px;
+}
+
+.header-main > img {
+  width: 80%;
+  max-width: 300px;
+}
+
+.tlo {
+  background-color: aqua;
+}
+
+.tresc {
+  background-color: red;
+}
+
+.reklamy {
+  background-color: #f6f6f6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.reklamy > img {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.content > h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  display: block;
+  text-align: center;
+}
+
+.content > p {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: grey;
+  text-align: center;
+  padding: 10px;
+}
+
+.content > a {
+  display: inline-block;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: grey;
+  text-align: center;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+  background-color: yellowgreen;
+  height: 45px;
+  width: 200px;
+  padding: 15px;
+}
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (min-width: 576px) {
+  .header-main > div > a {
+    display: inline;
+  }
+  .container {
+    width: 540px;
+  }
+  .hidden-xs {
+    display: block;
+  }
+  .hidden-sm {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 720px;
+  }
+  .hidden-sm {
+    display: block;
+  }
+  .hidden-md {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .header-main {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .header-main > div {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .container {
+    width: 960px;
+  }
+  .reklamy {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .hidden-md {
+    display: block;
+  }
+  .hidden-lg {
+    display: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1140px;
+  }
+  .hidden-lg {
+    display: block;
+  }
+  .hidden-xl {
+    display: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */
